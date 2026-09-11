@@ -1,4 +1,4 @@
-from arkitekt_next.qt import QtApp
+from arkitekt.qt import QtApp
 from napari import Viewer
 from qtpy import QtCore
 

@@ -1,6 +1,6 @@
-from arkitekt_next import App
+from arkitekt import App
 from .manifest import identifier, version, logo
-from arkitekt_next.qt import publicqt, devqt
+from arkitekt.qt import publicqt, devqt
 from qtpy import QtCore, QtWidgets
 
 global_app = None

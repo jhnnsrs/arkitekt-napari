@@ -7,14 +7,11 @@ requires-python = ">=3.11,<4"
 readme = "README.md"
 license = "MIT"
 dependencies = [
-    "arkitekt-next[all]>=0.35.0",
+    "arkitekt[all]>=2",
     "napari"
 ]
 [project.scripts]
 arkitekt-napari = "mikro_napari.cli.main:cli"
-
-[project.entry-points.pytest11]
-arkitekt_next = "arkitekt_next.pytest"
 
 [tool.uv]
 dev-dependencies = [
@@ -41,10 +38,10 @@ dev-dependencies = [
 ]
 
 [tool.hatch.build.targets.sdist]
-include = ["arkitekt_next"]
+include = ["arkitekt"]
 
 [tool.hatch.build.targets.wheel]
-include = ["arkitekt_next"]
+include = ["arkitekt"]
 
 [build-system]
 requires = ["hatchling"]
@@ -95,7 +92,7 @@ markers = [
 
 [[tool.pydoc-markdown.loaders]]
 type = "python"
-search_path = ["arkitekt_next"]
+search_path = ["arkitekt"]
 
 [tool.pydoc-markdown.renderer]
 type = "docusaurus"

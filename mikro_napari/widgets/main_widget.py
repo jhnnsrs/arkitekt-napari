@@ -6,7 +6,7 @@ from mikro_next.api.schema import (
 )
 from qtpy import QtWidgets
 from qtpy import QtCore
-from arkitekt_next.qt.magic_bar import MagicBar
+from arkitekt.qt.magic_bar import MagicBar
 from mikro_napari.models.representation import RepresentationQtModel
 from mikro_napari.widgets.dialogs.open_image import OpenImageDialog
 from .base import BaseMikroNapariWidget
