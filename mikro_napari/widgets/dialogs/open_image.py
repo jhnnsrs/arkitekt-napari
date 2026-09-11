@@ -1,7 +1,7 @@
 from typing import List
 from qtpy import QtWidgets
 from koil.qt import QtRunner
-from mikro_next.api.schema import Image, aget_image
+from mikro.api.schema import Image, aget_image
 
 
 class OpenImageDialog(QtWidgets.QDialog):

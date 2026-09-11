@@ -7,7 +7,7 @@ import numpy as np
 from napari.layers.shapes._shapes_constants import Mode
 from qtpy import QtCore, QtWidgets
 from koil.qt import QtCoro, QtFuture, QtGeneratorRunner, QtRunner, QtSignal
-from mikro_next.api.schema import (
+from mikro.api.schema import (
     AffineTransformationView,
     Image,
     RoiKind,

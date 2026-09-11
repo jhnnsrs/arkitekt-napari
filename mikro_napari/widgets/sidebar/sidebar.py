@@ -2,7 +2,7 @@ from koil.qt import QtRunner, async_to_qt
 from mikro_napari.models.representation import SELECT_MODE_MAP
 from mikro_napari.widgets.dialogs.new_relation import NewRelationDialog
 from mikro_napari.widgets.dialogs.new_rois_entity import NewRoisEntityDialog
-from mikro_next.api.schema import (
+from mikro.api.schema import (
     ROI,
     UpdateRoiInput,
     aget_roi,

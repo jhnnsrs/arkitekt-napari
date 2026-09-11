@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from mikro_next.api.schema import ROI, RoiKind
+from mikro.api.schema import ROI, RoiKind
 
 
 @dataclass

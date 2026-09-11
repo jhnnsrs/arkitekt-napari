@@ -1,5 +1,5 @@
 from koil.qt import QtRunner
-from mikro_next.api.schema import (
+from mikro.api.schema import (
     Image,
     from_array_like,
     afrom_array_like,
@@ -11,7 +11,7 @@ from mikro_napari.models.representation import RepresentationQtModel
 from mikro_napari.widgets.dialogs.open_image import OpenImageDialog
 from .base import BaseMikroNapariWidget
 import xarray as xr
-from rekuest_next.qt.builders import qtinloopactifier
+from rekuest.qt.builders import qtinloopactifier
 
 
 class MikroNapariWidget(BaseMikroNapariWidget):

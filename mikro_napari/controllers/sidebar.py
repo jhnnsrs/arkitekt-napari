@@ -1,7 +1,7 @@
 from mikro_napari.controllers.base import BaseMikroNapariController
 from mikro_napari.widgets.sidebar.sidebar import SidebarWidget
-from rekuest_next.qt.builders import qtinloopactifier
-from mikro_next.api.schema import Table
+from rekuest.qt.builders import qtinloopactifier
+from mikro.api.schema import Table
 
 
 class SidebarController(BaseMikroNapariController):
