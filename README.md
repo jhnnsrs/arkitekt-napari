@@ -1,8 +1,14 @@
 # mikro-napari
 
+> # ⚠️ DEPRECATED — do not use for new work
+>
+> This plugin is **no longer maintained** and is slated for a **rewrite**; there is no
+> replacement yet. It still targets the deprecated `*-next` client packages
+> (`reaktion-next`, and the old `arkitekt-next` stack), which are themselves retired.
+
 [![codecov](https://codecov.io/gh/jhnnsrs/mikro-napari/branch/master/graph/badge.svg?token=UGXEA2THBV)](https://codecov.io/gh/jhnnsrs/mikro-napari)
 [![PyPI version](https://badge.fury.io/py/mikro-napari.svg)](https://pypi.org/project/mikro-napari/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://pypi.org/project/mikro-napari/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://pypi.org/project/mikro-napari/)
 ![Maintainer](https://img.shields.io/badge/maintainer-jhnnsrs-blue)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/mikro-napari.svg)](https://pypi.python.org/pypi/mikro-napari/)
 [![PyPI status](https://img.shields.io/pypi/status/mikro-napari.svg)](https://pypi.python.org/pypi/mikro-napari/)
